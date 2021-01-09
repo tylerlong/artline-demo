@@ -14,3 +14,12 @@ How to use?
 
 Enjoy and give a star if you like it.
 
+
+## Docker
+
+
+```
+wget https://github.com/jwenjian/artline-demo/releases/download/v0.1.0/ArtLine_650.pkl
+docker build -t altline-demo:latest .
+docker run -it --rm -p 5000:5000 altline-demo
+```
